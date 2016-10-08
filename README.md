@@ -4,7 +4,9 @@ Sinopia is a private npm repository server
 
 ### Installing Image
 
-`docker pull barthinho/sinopia:latest`
+`git clone https://github.com/barthinho/docker-sinopia.git`
+`cd docker-sinopia`
+`make build`
 
 ### Creating Container
 
@@ -22,7 +24,7 @@ Sinopia is a private npm repository server
 
 There are two ways to modify the configuration.
 
-To understand the difference, view the conversation here: https://github.com/barthinho/docker-sinopia/pull/10
+To understand the difference, view the conversation here: https://github.com/keyvanfatehi/docker-sinopia/pull/10
 
 ### Original Method
 
